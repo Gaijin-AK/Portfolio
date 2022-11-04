@@ -31,3 +31,10 @@ h2{
     margin: 3em;
     text-decoration: none;
 }
+
+
+@media screen and (max-width: 768px) {
+    .about{
+        height: 100vh;
+    }
+}

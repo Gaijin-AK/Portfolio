@@ -51,3 +51,45 @@ a{
 .contact {
   color: #CFB997;
 }
+
+
+
+@media screen and (max-width: 768px) {
+  .about{
+    height: 100vh;
+    padding: 1em;
+  }
+  .about h1{
+    font-size: 3em;
+  }
+  .about p{
+    font-size: 1em;
+  }
+  .links{
+    padding: 1em;
+  }
+  .links a{
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .about{
+    height: 100vh;
+    padding: 1em;
+  }
+  .about h1{
+    font-size: 2em;
+  }
+  .about p{
+    font-size: 1em;
+  }
+  .links{
+    padding: 1em;
+  }
+  .links a{
+    font-size: 1em;
+  }
+}
+
+
