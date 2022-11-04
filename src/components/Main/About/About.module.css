@@ -1,7 +1,11 @@
-*{margin: 0;padding: 0;}
+*{margin: 0;padding: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serify;
+  
+}
 
 .about{
   height: 65vh;
+  
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,6 +13,7 @@
     text-decoration: none;
     padding: 3em;
     background-color: #50577A;
+    
 }
 
 .links{
@@ -20,16 +25,29 @@
     text-decoration: none;
     padding: 3em;
     background-color: #50577A;
+    text-decoration: none;
 }
 
-button{
-  border: none;
-    background-color: #50577A;
-    color: white;
-    font-size: 1.5rem;
-    font-weight: 700;
-    margin: 0.5em;
-    padding: 0.5em;
-    text-decoration: none;
-    cursor: pointer;
+a{
+  text-decoration: none;
+    font-style: italic;
+    color:#F8FFDB
+}
+.about h1{
+  font-size: 5em;
+  color: #CFB997;
+  text-align: center;
+  font-style: italic;
+  font-weight: 100;
+  margin-bottom: 1em;
+}
+
+.about p{
+  text-align: center;
+  color: #CFB997;
+
+}
+
+.contact {
+  color: #CFB997;
 }

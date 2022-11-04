@@ -15,22 +15,22 @@ const Contact = () => {
                 </div>
                 <div className={style.socialContainer}>
                     <div className={style.contact__container__socials__item}>
-                        <a href="https://www.facebook.com/GaijinisME/" target="_blank">
+                        <a href="https://www.facebook.com/GaijinisME/" target="_blank" rel="noopener noreferrer">
                             <img src="https://img.icons8.com/color/48/000000/facebook-new.png" alt="facebook" target="_blank" />
                         </a>
                     </div>
                     <div className={style.socialContainer}>
-                        <a href="https://www.instagram.com/moonfenxgaijin/">
+                        <a href="https://www.instagram.com/moonfenxgaijin/" target="_blank" rel="noopener noreferrer">
                             <img src="https://img.icons8.com/color/48/000000/instagram-new.png" alt="instagram" target="_blank" />
                         </a>
                     </div>
                     <div className={style.socialContainer}>
-                        <a href="https://www.linkedin.com/in/a-k-2a4a18212/">
+                        <a href="https://www.linkedin.com/in/a-k-2a4a18212/" target="_blank" rel="noopener noreferrer">
                             <img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="linkedin" target="_blank" />
                         </a>
                     </div>
                     <div className={style.socialContainer}>
-                        <a href="https://twitter.com/Gaijin1130/">
+                        <a href="https://twitter.com/Gaijin1130/" target="_blank" rel="noopener noreferrer">
                             <img src="https://img.icons8.com/color/48/000000/twitter.png" alt="twitter" target="_blank" />
                         </a>
                     </div>
