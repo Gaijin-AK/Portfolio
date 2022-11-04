@@ -5,6 +5,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import style from './About.module.css';
 
+
 const About = () => {
     return (
         <>
@@ -14,6 +15,7 @@ const About = () => {
                 <p>"One Level-UP at a grind"</p>
 
              <button><a href="https://drive.google.com/file/d/1uUNVCU2rOqT8Ss4wG4EenQPNHyWpnIxs/view?usp=sharing" target="_blank">My Resume </a></button>
+             <a href="https://drive.google.com/file/d/12RcouLjeP4zqwTwguudRQlB2XDDAgEv-/view?usp=share_link" download>Download CV</a>
             <Link to='/contact' className={style.contact}>Contact Me</Link>
 
              </div>
