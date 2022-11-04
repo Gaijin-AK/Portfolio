@@ -1,6 +1,6 @@
 *{margin: 0;padding: 0;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serify;
-  
+  background-color: #50577A;
 }
 
 .about{
@@ -54,42 +54,43 @@ a{
 
 
 
-@media screen and (max-width: 768px) {
-  .about{
-    height: 100vh;
-    padding: 1em;
+@media screen and (max-width: 960px){
+  .navbar{
+    flex-direction: column;
+    height: 80px;
+    padding: 0;
   }
-  .about h1{
-    font-size: 3em;
-  }
-  .about p{
-    font-size: 1em;
-  }
-  .links{
-    padding: 1em;
-  }
-  .links a{
-    font-size: 1em;
+
+  .navbarContainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
   }
 }
 
-@media screen and (max-width: 480px) {
-  .about{
-    height: 100vh;
-    padding: 1em;
-  }
-  .about h1{
-    font-size: 2em;
-  }
-  .about p{
-    font-size: 1em;
-  }
-  .links{
-    padding: 1em;
-  }
-  .links a{
-    font-size: 1em;
+@media screen and (max-width: 768px){
+  .home h1{
+    font-size: 6rem;
   }
 }
 
+@media screen and (max-width: 480px){
+  .home h1{
+    font-size: 4rem;
+  }
+}
 
+@media screen and (max-width: 320px){
+  .home h1{
+    font-size: 2rem;
+  }
+  .about h1 {
+    font-size: 3rem;
+    margin-top: 14rem;
+  }
+  .links {
+    justify-content: space-evenly;
+    margin-top: 8rem;
+  }
+}

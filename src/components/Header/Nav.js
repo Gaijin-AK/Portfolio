@@ -1,7 +1,3 @@
-//navigation bar for the header
-//useState and useEffect are hooks
-//use Nav.module.css for styling
-//no import of buttons just link to them
 
 
 import React, { useState, useEffect } from 'react';
@@ -81,4 +77,3 @@ const Navbar = () => {
     }
 
 export default Navbar;
-
