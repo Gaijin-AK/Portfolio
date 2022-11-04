@@ -14,6 +14,7 @@ const Projects = () => {
                 <div className={style.projectDiv}>
                     <h2>SNAKE</h2>
                     <p>My First Javascript Project</p>
+                    <a href="https://github.com/Gaijin-AK/JSGAME" target="_blank">Github</a>
                     <a href="https://nimble-beignet-270815.netlify.app/"  target="_blank"
                     className={style.projectShow}>
                         <img src={snake} alt="snake" className={style.projectImg}/></a>
@@ -21,6 +22,7 @@ const Projects = () => {
                 <div className={style.projectDiv}>
                     <h2>SilverHand's Fateless</h2>
                     <p>This is a E-commerce frontend app</p>
+                    <a href="https://github.com/Gaijin-AK/Resto"  target="_blank">Github</a>
                     <a href = "https://sprightly-kringle-870a59.netlify.app/" target="_blank" className={style.projectShow}>
                     <img src={SH} alt="fateless" className={style.projectImg} />
                     </a>
@@ -28,6 +30,7 @@ const Projects = () => {
                 <div className={style.projectDiv}>
                     <h2>Hapag</h2>
                     <p>This is a Social Media App for Recipes</p>
+                    <a href="https://github.com/Caspian3119/github-project7" target="_blank">Github</a>
                     <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fhapag.netlify.app%2F%3Ffbclid%3DIwAR0ZOk3Zs4qcyj7JJdi-yhQA8A0dBnb0q1-tVBYYrAwWMcRkAphgyXf6g7U&h=AT1YuJeEbvLA3rkTuq1bDrsTI-UXEdqOxoPpsEz9zqEbD-qnHJ5SWIRem1tRCmzkFfOqsa3RYmUKZX0vyMgtieIAk8v26K1258UUlyOkzvh8Y8Xtv8jFy0wahgk7z9yJeDTozm5ujS7HZH4"  target="_blank"
                     className={style.projectShow}>
                     <img src={hapag} alt="hapag" className={style.projectImg} />
